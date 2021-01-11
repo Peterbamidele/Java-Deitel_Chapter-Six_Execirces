@@ -10,14 +10,14 @@ public class GuesstheNumber_Chapter6_30 {
 
     public static void main(String[] args) {
         int UnknownNumber;
-        UnknownNumber = (int) (Math.random() * 49 + 1);
+        UnknownNumber = (int) (Math.random() * 999 + 1);
 
         Scanner Input = new Scanner(System.in);
         int guessNumber;
 
         do {
 
-            System.out.print("Enter a guess (1-50): ");
+            System.out.print("Enter a guess (1-999): ");
             guessNumber = Input.nextInt();
 
             if (guessNumber == UnknownNumber)
